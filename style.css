@@ -136,3 +136,20 @@ background-color: rgba(216, 123, 123, 0.219);
 
 
 
+.footer{
+    background-color: #3e0d0d;
+    color: white;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    margin-top: 48px;
+   padding: 12px 16px;
+   margin: 12px auto;
+  
+ }
+ 
+ .footer p{
+
+    font-family: 'Bree Serif', serif;
+    line-height: 30px;
+ }
