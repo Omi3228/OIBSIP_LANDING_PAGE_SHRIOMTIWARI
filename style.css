@@ -1,0 +1,138 @@
+/* css reset */
+  
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url( images/pic2.jpg);
+}
+
+
+.left{
+ 
+display: inline-block;
+position: absolute;
+left: 34px;
+top: 20px;
+
+}
+.left img{
+    height: 90px;
+    width: 77px;
+    filter: invert(100);
+   
+
+    }
+    
+    .left img:hover{
+
+        -webkit-filter:grayscale(1) ;
+        
+
+    }
+
+.mid{
+
+  
+   
+    display: block;
+    width: 43%;
+    margin: 30px auto;
+   text-align: center;
+    
+}
+.navbar li{
+
+    display: inline-block;
+}
+.navbar li a{
+
+   color: white;
+   text-decoration: none;
+   padding: 34px 23px;
+   font-size: 20px;
+    
+}
+
+.navbar li a:hover, .navbar li a:active {
+
+    color: rgb(233, 63, 11);
+    text-decoration: underline;
+    cursor: pointer;
+
+     
+ }
+
+.right{
+
+    border: 2px solid black;
+    border-radius: 25px;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+   
+     
+}
+.right   input{
+ 
+text-align: center;
+}
+
+h1{
+
+    color: rgb(218, 215, 15);
+    text-align: center;
+}
+
+.container{
+
+border: 2px solid rgb(255, 255, 255);
+border-radius: 12px;
+    margin: 142px 35px;
+    padding: 33px 23px;
+    width: 32%;
+    text-align: center;
+    
+}
+
+ .form-group input{
+
+    margin: 5px;
+    padding: 7px;
+  text-align: center;
+  width: 78%;
+  border-radius: 8px;
+
+}
+
+
+.form-group button{
+
+ width:238px;
+ margin: 20px auto;
+ display: block;
+ color: rgb(255, 255, 255);
+background-color: rgba(216, 123, 123, 0.219);
+ border-radius: 15px;
+ cursor: pointer;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+ font-weight: bold;
+ padding: 6px;
+ width: 26%;
+ border: 2px solid rgb(60, 74, 155);
+
+}
+
+.form-group button:hover{
+ 
+    color: rgb(255, 255, 255);
+   box-shadow: 5px 5px 10px red;
+   transition: all ease 0.5s;
+   background-color: lightseagreen;
+   animation-timing-function: ease-in;
+
+}
+
+
+
